@@ -47,3 +47,13 @@ A página principal pode ser aberta sem instalação de dependências. Os ícone
 - Repositório mantido por [Lucas Alves](https://github.com/alvesvslucas).
 
 [Conheça meu perfil profissional](https://github.com/alvesvslucas) · [LinkedIn](https://www.linkedin.com/in/alvesvslucas/)
+
+## Verificação automatizada
+
+Com Node.js 24, sem instalar dependências:
+
+```sh
+node scripts/check-static.mjs --config static-check.config.json
+```
+
+A checagem confere referências locais declaradas em HTML/CSS, grafia dos arquivos, IDs/âncoras e sintaxe dos arquivos JavaScript. A CI repete a verificação no checkout real. Não executa serviços, banco, links externos ou navegação visual.

@@ -1,0 +1,8 @@
+{
+  "entryPages": [
+    "index.html"
+  ],
+  "ignoreSourcePrefixes": [
+    "img/templatemo_564_plot_listing/"
+  ]
+}
